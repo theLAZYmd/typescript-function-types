@@ -1,0 +1,392 @@
+[
+  {
+    "name": "isNull",
+    "documentation": "",
+    "type": "(value: string | number) => boolean",
+    "types": [
+      "(value: string",
+      "number) => boolean"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "value",
+            "documentation": "",
+            "type": "string | number",
+            "types": [
+              "string",
+              "number"
+            ]
+          }
+        ],
+        "returnType": "boolean",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "excelCellToRowCol",
+    "documentation": "",
+    "type": "(cell: string) => [number, number]",
+    "types": [
+      "(cell: string) => [number, number]"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "cell",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "[number, number]",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "arrayToDecimal",
+    "documentation": "",
+    "type": "(arr: number[], base?: number) => number",
+    "types": [
+      "(arr: number[], base?: number) => number"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "arr",
+            "documentation": "",
+            "type": "number[]",
+            "types": [
+              "number[]"
+            ]
+          },
+          {
+            "name": "base",
+            "documentation": "",
+            "type": "number",
+            "types": [
+              "number"
+            ]
+          }
+        ],
+        "returnType": "number",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "replaceRouteParams",
+    "documentation": "",
+    "type": "(route: string) => string",
+    "types": [
+      "(route: string) => string"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "route",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "toCamelCase",
+    "documentation": "",
+    "type": "{ (str: string, sep?: string): string; (arr: string[]): string; }",
+    "types": [
+      "{ (str: string, sep?: string): string; (arr: string[]): string; }"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "str",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          },
+          {
+            "name": "sep",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      },
+      {
+        "parameters": [
+          {
+            "name": "arr",
+            "documentation": "",
+            "type": "string[]",
+            "types": [
+              "string[]"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "toCamelCase",
+    "documentation": "",
+    "type": "{ (str: string, sep?: string): string; (arr: string[]): string; }",
+    "types": [
+      "{ (str: string, sep?: string): string; (arr: string[]): string; }"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "str",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          },
+          {
+            "name": "sep",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      },
+      {
+        "parameters": [
+          {
+            "name": "arr",
+            "documentation": "",
+            "type": "string[]",
+            "types": [
+              "string[]"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "toCamelCase",
+    "documentation": "",
+    "type": "{ (str: string, sep?: string): string; (arr: string[]): string; }",
+    "types": [
+      "{ (str: string, sep?: string): string; (arr: string[]): string; }"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "str",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          },
+          {
+            "name": "sep",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      },
+      {
+        "parameters": [
+          {
+            "name": "arr",
+            "documentation": "",
+            "type": "string[]",
+            "types": [
+              "string[]"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "capitalise",
+    "documentation": "",
+    "type": "(str: string) => string",
+    "types": [
+      "(str: string) => string"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "str",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "normaliseBytes",
+    "documentation": "",
+    "type": "(bytes: number) => string",
+    "types": [
+      "(bytes: number) => string"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "bytes",
+            "documentation": "",
+            "type": "number",
+            "types": [
+              "number"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "toArrayBuffer",
+    "documentation": "",
+    "type": "(str: string) => ArrayBuffer",
+    "types": [
+      "(str: string) => ArrayBuffer"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "str",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "ArrayBuffer",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "isExcelNull",
+    "documentation": "",
+    "type": "(value: string | number) => boolean",
+    "types": [
+      "(value: string",
+      "number) => boolean"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "value",
+            "documentation": "",
+            "type": "string | number",
+            "types": [
+              "string",
+              "number"
+            ]
+          }
+        ],
+        "returnType": "boolean",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "shuffle",
+    "documentation": "",
+    "type": "<T>(array: T[]) => T[]",
+    "types": [
+      "<T>(array: T[]) => T[]"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "array",
+            "documentation": "",
+            "type": "T[]",
+            "types": [
+              "T[]"
+            ]
+          }
+        ],
+        "returnType": "T[]",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "abbreviate",
+    "documentation": "",
+    "type": "(source: string) => string",
+    "types": [
+      "(source: string) => string"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "source",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  }
+]

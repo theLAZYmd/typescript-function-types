@@ -1,0 +1,50 @@
+[
+  {
+    "name": "default",
+    "documentation": "",
+    "type": "typeof Frequency",
+    "types": [
+      "typeof Frequency"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "raw",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "Frequency",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "foo",
+    "documentation": "",
+    "type": "(v: string) => string",
+    "types": [
+      "(v: string) => string"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "v",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "string",
+        "documentation": ""
+      }
+    ]
+  }
+]

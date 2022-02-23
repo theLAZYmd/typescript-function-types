@@ -1,0 +1,68 @@
+[
+  {
+    "name": "__function",
+    "documentation": "",
+    "type": "(inputLink: any, env: any, options?: AxiosRequestConfig) => Promise<any>",
+    "types": [
+      "(inputLink: any, env: any, options?: AxiosRequestConfig) => Promise<any>"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "inputLink",
+            "documentation": "",
+            "type": "any",
+            "types": [
+              "any"
+            ]
+          },
+          {
+            "name": "env",
+            "documentation": "",
+            "type": "any",
+            "types": [
+              "any"
+            ]
+          },
+          {
+            "name": "options",
+            "documentation": "",
+            "type": "AxiosRequestConfig",
+            "types": [
+              "AxiosRequestConfig"
+            ]
+          }
+        ],
+        "returnType": "Promise<any>",
+        "documentation": ""
+      }
+    ]
+  },
+  {
+    "name": "isKeyOfAxiosRequestConfig",
+    "documentation": "",
+    "type": "(key: string) => key is string | number | symbol",
+    "types": [
+      "(key: string) => key is string",
+      "number",
+      "symbol"
+    ],
+    "constructors": [
+      {
+        "parameters": [
+          {
+            "name": "key",
+            "documentation": "",
+            "type": "string",
+            "types": [
+              "string"
+            ]
+          }
+        ],
+        "returnType": "boolean",
+        "documentation": ""
+      }
+    ]
+  }
+]

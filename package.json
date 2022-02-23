@@ -4,7 +4,8 @@
   "description": "A free and open source library for fetching the types of a function at runtime",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests/"
+    "build": "tsc",
+    "test": "mocha tests/ --nb=2"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,8 @@
     "typescript": "^4.0.0"
   },
   "devDependencies": {
+    "@types/node": "^17.0.19",
+    "chai": "^4.3.6",
     "mocha": "^9.2.1",
     "typescript": "^4.0.0"
   }

@@ -1,6 +1,5 @@
 // https://github.com/Microsoft/TypeScript/wiki/Using-the-Compiler-API#using-the-type-checker
 import * as ts from "typescript";
-import * as fs from "fs";
 
 interface DocEntry {
   name?: string;
@@ -15,7 +14,10 @@ interface DocEntry {
 /** Generate documentation for all classes in a set of .ts files */
 export default function generateDocumentation(
   fileNames: string[],
-  options: ts.CompilerOptions
+  options: ts.CompilerOptions =  {
+	target: ts.ScriptTarget.ES5,
+	module: ts.ModuleKind.CommonJS
+  }
 ): DocEntry[] {
   // Build a program using the set of root file names in fileNames
   let program = ts.createProgram(fileNames, options);
@@ -97,13 +99,13 @@ export default function generateDocumentation(
   }
 
   /** Serialize a symbol into a json object */
-  function serializeSymbol(symbol: ts.Symbol): DocEntry {
+  function serializeSymbol(symbol: ts.Symbol): DocEntry & { types: any } {
+	let typeObj = checker.getTypeOfSymbolAtLocation(symbol, symbol.valueDeclaration!);
     return {
       name: symbol.getName(),
       documentation: ts.displayPartsToString(symbol.getDocumentationComment(checker)),
-      type: checker.typeToString(
-        checker.getTypeOfSymbolAtLocation(symbol, symbol.valueDeclaration!)
-      )
+      type: checker.typeToString(typeObj),
+	  types: checker.typeToString(typeObj).split(' | '),
     };
   }
 
